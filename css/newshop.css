@@ -1,0 +1,196 @@
+*{
+    margin: 0; padding: 0;
+}
+ul{
+    list-style: none;
+}
+@media (min-width:100px) {
+    #gps_bottom{
+        display: none
+    }
+    #gps_top>ul{
+        list-style: none;
+        display: none;
+    }
+    #gps_top>ul>li{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        color: black;
+        background-color: #f6f6f6;
+        margin: 2px 0;
+        line-height: 40px;
+    }
+    #gps_top:hover ul{
+        display: block;
+    }
+    #gps_top>ul>li:hover{
+        background-color: #e70050;
+        color: white;
+    }
+    #gps_top{
+        margin-top: -3rem;
+        margin-left: 0rem;
+        z-index: 5;
+    }
+    #header_bottom>a{
+        display: block;
+        width: 25%;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #f6f6f6;
+        margin: 0 .4rem;
+        
+    }
+    #body>div:first-child{
+        width: 100%;
+    }
+    #body>div:last-child{
+        display: none;
+    }
+}
+/* @media (min-width:770px) {
+    #header_bottom>a{
+        display: block;
+        flex: 0 0 25%;
+        width: 25%;
+        margin:  0 auto;
+    }
+
+} */
+@media (min-width:1000px) {
+    #gps_bottom{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        background-color: #f6f6f6;
+    }
+    #gps_bottom>div>ul{
+        list-style: none;
+    }
+    #gps_bottom>div>a{
+        display: block;
+        width: 170px;
+        height: 50px;
+        border-right: darkgray;
+        color: black;
+        line-height: 50px;
+        text-align: center;
+        background-color: #f6f6f6; 
+        font-weight: 800;
+    }
+    #gps_bottom>div>ul>li{
+        width: 170px;
+        height: 50px;
+        color: black;
+        line-height: 50px;
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+    #gps_bottom>div>ul{
+        display: none; 
+        z-index: 5;
+    }
+    #gps_bottom>div:hover ul{
+        display: block;
+        margin-top: -50px;
+    }
+    #gps_bottom>div>ul>li:first-child{
+        background-color: #e70050;
+        color: white;
+    }
+    #gps_bottom>div>a, #gps_bottom>div>ul{
+        position: relative;
+        text-decoration: none;
+    }
+    #gps_top{
+        display: none;
+    }
+    #header_bottom>a{
+        display: none;
+    }
+    #body>div:first-child{
+        width: 70%;
+    }
+    #body>div:last-child{
+        display: block;
+        width: 30%;
+    }
+
+}
+.logo_pt{
+    padding-top: 1.5rem;
+} 
+.breadcrumb-item + .breadcrumb-item::before{
+    content:">";
+    }
+#body{
+    width: 90%;
+    margin: auto;
+}
+#breadcrumb{
+    margin-top: 2rem;
+    
+}
+#breadcrumb>ul{
+    background-color: white;
+    border-bottom: 1px solid #d1d1d1;
+}
+#breadcrumb a{
+    color: black;
+    text-decoration: none;
+}
+.body_left_img{
+    width: 22%;
+    height: 80%;
+}
+.body_small_font{
+    color: #686868;
+}
+.body_a{
+    display: block;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none !important;
+    border-radius: 6px;
+}
+#body>div>ul{
+    border: 1px solid #d1d1d1;
+}
+#body>div>ul>li{
+    border-bottom:1px dashed #d1d1d1;
+    margin: 1rem;
+    padding-bottom: 10px;
+}
+#body>div>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+#body>div>ul>li>a:hover{
+    color: #e70050
+}
+.body_right_div{
+    height: 130px;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.body_right_div>img{
+    width: 52%;
+    height: 74%;
+}
+.body_right_div_img1{
+    margin-left: 9%;
+}
+.body_right_div_img2{
+    margin-left: 16%;
+}
+.body_right_div_p2{
+    color: #d1d1d1;
+}
